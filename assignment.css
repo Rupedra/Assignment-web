@@ -1,24 +1,24 @@
-body /*<.....................Homepage css start..........>*/
+body /*Css for home page*/
 {
-    margin:0;
-    padding:0;
+    margin:0; /*gives spaces outside box*/
+    padding:0; /*gives spaces inside box*/
 
 
 }
-/*Navigation Styles start here*/
-header{
+/*Navigation bar css code for all five pages*/
+header{/*dont use . before header because it is html imp class */
 	background: white;
 	text-align: center;
 	position: fixed;
 	z-index: 999;
 	width: 100%;
 }
-h1
+h1/*for heading 1*/
 {
     color: white;
     font-size: 50px;
 }
-.nav-toggle{
+.nav-toggle{/*css for hamburger icon started*/
 	display: none;
 }
 .nav-toggle-label{
@@ -53,7 +53,7 @@ h1
 }
 .nav-toggle-label span::after{
 	top: 7px;
-}
+}/*hamburger menu css ends*/
 nav{
 	position: absolute;
 	text-align: left;
@@ -81,7 +81,7 @@ nav a{
 	opacity: 0;
 	transition: opacity 250ms ease-in-out 2500ms;
 }
-nav a:hover{
+nav a:hover{/*nav bar horver effects css*/
 	color: green;
 }
 .nav-toggle:checked ~ nav{
@@ -92,7 +92,7 @@ nav a:hover{
 }
 
 
-.footer
+.footer/*css for footer for all pages */
 {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.2);
@@ -148,7 +148,7 @@ nav a:hover{
 }
 .port-column
 {
-    background-color: black;
+    background-color: green;
     text-align: center;
     padding: 45px;
     height: 99px;
